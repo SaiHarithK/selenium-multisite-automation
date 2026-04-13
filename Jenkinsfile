@@ -33,7 +33,7 @@ stage('Check Target Folder') {
        
        stage('Run Application') {
     steps {
-        sh 'java -jar target/selenium-multisite-automation-1.0-SNAPSHOT.jar'
+        sh 'java -jar target/SeleniumMultiSite-1.0-SNAPSHOT.jar'
     }
 }
         
